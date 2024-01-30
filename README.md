@@ -14,4 +14,4 @@
 
 ## GİF
 
-<img src="images/Restaurant.gif" />
+<img src="images/Restaurant.gif" width: 50%/>
