@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo">
+    <img src="images/logo.png" alt=""></a> 
+
+    <nav class="navbar">
+        <a class="active" href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Products</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        <a href="#blogs">Blogs</a>
+    </nav>
+
+    <div class="buttons">
+        <button id="search-btn">
+            <i class="bi bi-search"></i>
+        </button>
+        <button id="cart-btn">
+            <i class="bi bi-cart-fill"></i>
+        </button>
+        <button id="menu-btn">
+            <i class="bi bi-list"></i>
+        </button>
+    </div>
+    <div class="search-form">
+        <input type="text" class="search-input" id="search-box" placeholder="search-here" />
+        <i class="bi bi-search"></i>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <i class="bi bi-x"></i>
+            <img src="images/menu-1.png" alt="">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <i class="bi bi-x"></i>
+            <img src="images/menu-2.png" alt="">
+            <div class="content">
+                <h3>cart item 02</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <i class="bi bi-x"></i>
+            <img src="images/menu-3.png" alt="">
+            <div class="content">
+                <h3>cart item 03</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <i class="bi bi-x"></i>
+            <img src="images/menu-4.png" alt="">
+            <div class="content">
+                <h3>cart item 04</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <a href="" class="btn">checkout now</a>
+    </div>
+</header>
+
+<section class="home">
+        <div class="content">
+        <h3>EXPRESS HOME DELIVERY</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam tempora voluptatem est. Ipsum laudantium assumenda rerum voluptas repellat quia dignissimos dolorum at voluptatum nihil. Error, reprehenderit? Odit repellat libero sit?</p>
+    <a href="" class="btn">Order Now</a>
+    </div>
+</section>
+
+
+
+<section class="menu" id="menu">
+    <h1>our <span>menu</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="box-head">
+                <img src="images/menu-1.png" alt="">
+                <span class="menu-category">PIZZA</span>
+                <h3>6 Mini Pizzas</h3>
+                <div class="price">$104.99 <span>$199.99</span></div>
+            </div>
+            <div class="box-bottom">
+                <a href="" class="btn">Add to card</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="images/menu-2.png" alt="">
+                <span class="menu-category">BURGER</span>
+                <h3>5 Mini Burgers</h3>
+                <div class="price">$99.99 <span>$109.99</span></div>
+            </div>
+            <div class="box-bottom">
+                <a href="" class="btn">Add to card</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="images/menu-3.png" alt="">
+                <span class="menu-category">PIZZA</span>
+                <h3>2 Mixed Pizzas</h3>
+                <div class="price">$49.99 <span>$59.99</span></div>
+            </div>
+            <div class="box-bottom">
+                <a href="" class="btn">Add to card</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="images/menu-4.png" alt="">
+                <span class="menu-category">BURGER</span>
+                <h3>3 Meatball Burgers</h3>
+                <div class="price">$79.99 <span>$99.99</span></div>
+            </div>
+            <div class="box-bottom">
+                <a href="" class="btn">Add to card</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="products" id="products">
+    <h1>our <span>products</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="box-head">
+                <span class="title">MINI BURGER</span>
+                <a href="" class="name">Bacon Burger</a>
+            </div>
+            <div class="image">
+                <img src="images/product-1.png" alt="">
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">$6.00</b>
+                    <span class="amount">110gr / 300 Cal</span>
+                </div>
+                <div class="product-btn">
+                    <a href="">
+                        <i class="bi bi-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <span class="title">DARK BURGER</span>
+                <a href="" class="name">Dark+Cheese Burger</a>
+            </div>
+            <div class="image">
+                <img src="images/product-2.png" alt="">
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">$12.00</b>
+                    <span class="amount">220gr / 600 Cal</span>
+                </div>
+                <div class="product-btn">
+                    <a href="">
+                        <i class="bi bi-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="box dark-bg">
+            <div class="box-head">
+                <span class="title">DOUBLE DARK BURGER</span>
+                <a href="" class="name">Dark+Cheese+Double Burger</a>
+            </div>
+            <div class="image">
+                <img src="images/dark-product.jpg" alt="">
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">$24.00</b>
+                    <span class="amount">440gr / 1200 Cal</span>
+                </div>
+                <div class="product-btn">
+                    <a href="">
+                        <i class="bi bi-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="about" id="about">
+    <h1>about <span>us</span></h1>
+<div class="row">
+    <div class="image">
+        <img src="images/about.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3>What Is The Secret Recife Of Our Burgers?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum distinctio ad animi amet consequatur tempore ut, libero suscipit quibusdam odio sint maxime tempora aliquid porro labore harum, provident eaque repellat.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, fugiat corrupti libero ex dolorem aperiam, iusto voluptate quis pariatur voluptas quam quae fugit beatae unde. Temporibus veritatis aliquam fuga quisquam?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque fuga blanditiis laudantium iure similique tempore ipsum aut error. Neque, earum vitae quod cumque veniam aperiam officiis quidem iusto dolores consectetur.</p>
+        <a href="" class="btn">Learn More</a>
+    </div>
+</div> 
+</section>
+
+
+<section class="review" id="review">
+    <h1>costumer's <span>review</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/quote.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odio quaerat commodi possimus? Eius nemo aperiam dolore laudantium, aliquam quas, omnis molestiae excepturi dolorum reprehenderit sed pariatur in corrupti maiores.</p>
+            <img src="images/avatar-1.png" alt="" class="user">
+            <h3>Jeniffer Becker</h3>
+            <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/quote.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odio quaerat commodi possimus? Eius nemo aperiam dolore laudantium, aliquam quas, omnis molestiae excepturi dolorum reprehenderit sed pariatur in corrupti maiores.</p>
+            <img src="images/avatar-2.png" alt="" class="user">
+            <h3>John Doe</h3>
+            <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/quote.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odio quaerat commodi possimus? Eius nemo aperiam dolore laudantium, aliquam quas, omnis molestiae excepturi dolorum reprehenderit sed pariatur in corrupti maiores.</p>
+            <img src="images/avatar-3.png" alt="" class="user">
+            <h3>Lisa Arambula</h3>
+            <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="contact" id="contact">
+    <h1>contact <span>us</span></h1>
+    <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d96328.29352236763!2d28.926505112917685!3d41.019585458980224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1706397760905!5m2!1str!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form>
+            <h3>GET IN TOUCH</h3>
+            <div class="inputBox">
+                <i class="bi bi-person-fill"></i>
+                <input type="text" placeholder="name" />
+            </div>
+            <div class="inputBox">
+                <i class="bi bi-envelope-fill"></i>
+                <input type="text" placeholder="e-mail" />
+            </div>
+            <div class="inputBox">
+                <i class="bi bi-telephone-fill"></i>
+                <input type="number" placeholder="telephone" />
+            </div>
+            <input type="submit" class="btn" value="contact now" />
+        </form>
+    </div>
+
+</section>
+
+
+<section class="blogs" id="blogs">
+    <h1>our <span>blog</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="" class="title">How to make burgers?</a>
+                <span>by admin / 10st may, 2020</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt accusantium aperiam animi voluptatibus incidunt repellat, expedita nisi excepturi tempora, quis, adipisci laborum impedit illum voluptatem ab quos labore facere officiis.</p>
+                <a href="" class="btn">read more</a>  
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="" class="title">How to make burgers?</a>
+                <span>by admin / 10st may, 2020</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt accusantium aperiam animi voluptatibus incidunt repellat, expedita nisi excepturi tempora, quis, adipisci laborum impedit illum voluptatem ab quos labore facere officiis.</p>
+                <a href="" class="btn">read more</a>  
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="" class="title">How to make burgers?</a>
+                <span>by admin / 10st may, 2020</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt accusantium aperiam animi voluptatibus incidunt repellat, expedita nisi excepturi tempora, quis, adipisci laborum impedit illum voluptatem ab quos labore facere officiis.</p>
+                <a href="" class="btn">read more</a>  
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="footer">
+    <div class="search">
+        <input type="text" class="search-input" placeholder="Search" />
+        <button class="btn btn-primary">search</button>
+    </div>
+    <div class="share">
+        <a href="">
+            <i class="bi bi-facebook"></i>
+        </a>
+        <a href="">
+            <i class="bi bi-instagram"></i>
+        </a>
+        <a href="">
+            <i class="bi bi-twitter-x"></i>
+        </a>
+        <a href="">
+            <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="">
+            <i class="bi bi-pinterest"></i>
+        </a>
+    </div>
+
+    <div class="links">
+        <a class="active" href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+        <a href="#">Blogs</a>
+    </div>
+    <div class="credit">
+        created by <span>Burak KAPLAN</span> <i class="bi bi-currency-bitcoin"></i>
+    </div>
+</section>
+
+
+<script src="js/script.js"></script>
+
+    
+</body>
+</html>
